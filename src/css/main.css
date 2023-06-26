@@ -1,0 +1,7 @@
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/main/model1.png");
+  background-position: center;
+  background-size: cover;
+}
