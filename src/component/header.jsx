@@ -5,14 +5,25 @@ import logo from "../img/header/logo_white.png";
 function Header(props) {
   return (
     <div className="header-container">
-      <div className="header-logo">
-        <img src={logo} alt="logo" />
-        <p>EIGHT</p>
-      </div>
       <ul className="header-list">
-        <li>Clothes</li>
-        <li>Style</li>
-        <li>Login</li>
+        <li className="header-clothes">Clothes</li>
+        <li className="header-logo-contianer">
+          <div className="logo-box">
+            <div className="header-logo" id="header-logo-top">
+              <div></div>
+            </div>
+            <div className="header-logo" id="header-logo-right">
+              <div></div>
+            </div>
+            <div className="header-logo" id="header-logo-left">
+              <div></div>
+            </div>
+            <div className="header-logo" id="header-logo-bottom">
+              <div></div>
+            </div>
+          </div>
+        </li>
+        <li className="header-style">Style</li>
       </ul>
     </div>
   );
